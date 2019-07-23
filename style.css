@@ -1,42 +1,47 @@
 /* Body */
 body{
-  background-color: #EDEDED; 
+  background-color: lightblue; 
 }
 /* Navbar */
 .navbar{
   max-height: 57px; 
+  
 }
 .navigation .navbar-brand{
-  color: white; 
-  margin-left: 30px; 
+  color: black; 
+  margin-left: 20px; 
   padding: inherit; 
-  font-weight: bold; 
-  background-color: #0BADA6;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .navbar{
-  background-color: white; 
-  font-size: 15px; 
+  background-color: grey; 
+  font-size: 25px;
+  font-weight: bolder; 
+  color: black
+  padding: 10px 20px 15px;
 }
 .active, .dropdown-menu .dropdown-item:active a:hover{
-  background-color:#E7E7E7!important; 
+  background-color:whitesmoke !important; 
 }
 .dropdown-item{
-  color: #6D8092 !important; 
+  color: black !important; 
+  font-weight: bold;
 }
 .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
-  background-color:#E7E7E7 !important; 
+  background-color: rgb(231, 202, 231) !important; 
 }
 a{
   color: #6D8092;
   font-size: 15px; 
 }
 .nav-link:hover{
-  background-color:#E7E7E7 !important;
+  background-color: purple; color: whitesmoke !important;
  }
 
 .navbar-brand:hover{
-color: rgb(175, 175, 175) !important;
+color: whitesmoke !important;
 }
 /* Images */
 img{
@@ -44,7 +49,7 @@ img{
   height:100% !important;
 }
 .active, .panel:hover{
-  border-color:#0BADA6;
+  border-color:purple; 
   border-style: solid; 
   
 }
@@ -55,14 +60,14 @@ img{
 
 /* Title Class  */
 .title{
-  color: #0BADA6;  
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:purple;  
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder; 
   padding-top: 25px; 
 }
 /* Paragraph Element */
 p{
-color: #6D8092;
+color: black;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 17px; 
 }
@@ -72,35 +77,19 @@ font-size: 17px;
   margin-bottom: 62px; 
   padding: 10px 20px 15px; 
   color:black;
+  font-weight: bold;
   background-color: white; 
-
+  
 }
 /* Table */
 .table{
   font-size: 15px; 
   border-top-color: white !important; 
 }
-/* Footer */
-footer{
-background-color: #666666; 
-border-top-style: solid; 
-border-top-width: 5px; 
-border-top-color: #0BADA6;
-color: white; 
-min-height: 55px; 
-font-family: Arial, Helvetica, sans-serif;
-font-size: 15px; 
-text-align: center; 
-position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-padding-top: 15px; 
-}
 /* Media Queries */
 @media(max-width: 992px){
 .navbar-expand-lg{
-background-color: #0BADA6 !important;
+background-color:purple !important;
 }
 .navbar{
   max-height: none; 
@@ -124,18 +113,7 @@ button:focus {
   
   }
 }
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
 
 
 
